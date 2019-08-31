@@ -30,9 +30,12 @@ def line_of(n, chrt='-'):
         for m in range(wing+1):
             shir = shir + chrt
         if(n % 2 == 0):
-            print('|<', shir, ' This is a line of ', n, ' characters ', shir, chrt, '>|', sep='')  # for even lengths we have to use asymetric wings of characters
+            # for even lengths we have to use asymetric wings of characters
+            print('|<', shir, ' This is a line of ',
+                  n, ' characters ', shir, chrt, '>|', sep='')
         else:
-            print('|<', shir, ' This is a line of ', n, ' characters ', shir, '>|', sep='')
+            print('|<', shir, ' This is a line of ',
+                  n, ' characters ', shir, '>|', sep='')
 #       f_test(n)
     elif(n >= 4):
         for m in range(n-4):
