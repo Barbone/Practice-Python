@@ -1,3 +1,7 @@
+# MIT License
+# Copyright (c) 2019 RGL
+
+
 def line_of(n, chrt='-'):
     '''Prints a line of n characters length'''
 
