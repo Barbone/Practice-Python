@@ -1,5 +1,5 @@
 # Practice-Python
-Here are my minor Python projects as I am learning the language
+Python projects as I am learning the language
 
 1 line_of.py is a small script that prints lines of a certain length using an optional character which defaults to '-'. It would have been easy to make a function to simply print a number of characters, but I wanted to make it print a line with arrows on both ends and a text in the middle. The main issues I encountered were to find a different design for lines smaller than the middle text and arrows and to find a solution for correctly printing odd/even length lines. It is one of my exercises in Python and in general programming. I was inspired by the PEP8 recommendation on maximum line length: I wanted to see what it
 looks like a line of 79 characters. First step was to make a for loop to print 79 characters. Then I added an optional length, an optional character, I resolved the design issue for small lines, made it print correctly odd and even lines, even made it to print 'character' instead of 'characters' for the one character length line, added various conditions for the arguments and created a test function to check the length of the printed line. In the end I had to re learn how to use Github and push the file. Example usage: line_of(79, '+')
